@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "Django>=3.1.5"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-mc-logging"
+version = "0.0.5"
+description = "Django utility for modular logging for management commands."
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "Django>=3.1.5",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+authors = [
+    { name="Bruno Miranda", email="brunofelippemm@gmail.com" },
+    { name="Paulo Viana", email="pvictor_vs@hotmail.com" },
+    { name="Walter Gams" },
+]
+
+[project.urls]
+"Homepage" = "https://github.com/brunofelippemm/django_management_commands_logging"
+"Bug Tracker" = "https://github.com/brunofelippemm/django_management_commands_logging/issues"

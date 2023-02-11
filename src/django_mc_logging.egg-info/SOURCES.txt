@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_management_commands_logging/__init__.py
+src/django_management_commands_logging/core.py
+src/django_mc_logging.egg-info/PKG-INFO
+src/django_mc_logging.egg-info/SOURCES.txt
+src/django_mc_logging.egg-info/dependency_links.txt
+src/django_mc_logging.egg-info/requires.txt
+src/django_mc_logging.egg-info/top_level.txt
